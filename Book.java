@@ -4,7 +4,9 @@ public abstract class Book {
     protected String isbn;
     protected boolean isCheckedOut;
 
-    // Constructor
+    /* 
+     * @brief Constructor
+     */ 
     public Book(String title, String author, String isbn) {
         this.title = title;
         this.author = author;
