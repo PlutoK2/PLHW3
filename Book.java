@@ -1,3 +1,16 @@
+/*
+    This code defines some common properties and methods that all book types will inherit, but it leaves some details (like how to describe the book) to be implemented by subclasses..
+
+    Args:
+        Book(String title, String author, String isbn): 
+            String title, String author, String isbn: This method should return a string that describes the book and  sets isCheckedOut to false.
+        
+    Returns:
+         void:
+         String: This method should return a string that describes the book. 
+     */
+
+
 public abstract class Book {
     protected String title;
     protected String author;

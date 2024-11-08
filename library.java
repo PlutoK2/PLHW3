@@ -1,3 +1,16 @@
+/*
+    This code defines a library class that manages books, members, and staff in a library system..
+
+    Args:
+        addBook(Book book): The method takes an argument of type Book (a specific instance of the Book class). 
+        registerMember(Member member): This method takes an argument of type Member, representing a new member to be added to the library's membership list.
+        registerStaff(Staff staffMember): This method takes an argument of type Staff, representing a new staff member to be added to the library.
+
+
+    Returns:
+        Void:
+     */
+
 
 import java.util.ArrayList;
 

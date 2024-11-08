@@ -5,23 +5,23 @@ public class libraryTest {
         library library = new library();
 
         // Create staff members
-        Staff staff1 = new Staff("Alice", "S001");
-        Staff staff2 = new Staff("Bob", "S002");
+        Staff staff1 = new Staff("Kaniya", "S227");
+        Staff staff2 = new Staff("Kyara", "S2221");
 
         // Register staff to the library
         library.registerStaff(staff1);
         library.registerStaff(staff2);
 
         // Create members
-        Member member1 = new Member("Charlie", "M001");
-        Member member2 = new Member("David", "M002");
+        Member member1 = new Member("Ivan", "M001");
+        Member member2 = new Member("Cassie", "M002");
 
         // Register members to the library
         library.registerMember(member1);
         library.registerMember(member2);
 
         // Create books
-        Book fictionBook = new Fiction("The Great Gatsby", "F. Scott Fitzgerald", "12345");
+        Book fictionBook = new Fiction("Harry Potter and the Sorcerer's stone ", "J. K. Rowling", "12345");
         Book nonFictionBook = new Nonfiction("Sapiens", "Yuval Noah Harari", "67890");
 
         // Register books to the library
